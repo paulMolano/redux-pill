@@ -9,17 +9,40 @@ import PublicationDate from "./Search/PublicationDate";
 import TypeOfHome from "./Search/TypeOfHome";
 
 const Search = () => {
-
   return (
     <>
-      <TypeOfHome />
-      <Condition />
-      <Bedrooms />
-      <Bathrooms />
-      <PriceRange />
-      <PublicationDate />
-      <Equipment />
-      <MoreFilters />
+      <div className="container mt-3">
+        <div className="row">
+          <div className="col-3">
+            <TypeOfHome />
+          </div>
+          <div className="col-3">
+            <Condition />
+          </div>
+
+          <div className="col-3">
+            <Bedrooms />
+          </div>
+
+          <div className="col-3">
+            <Bathrooms />
+          </div>
+        </div>
+        <div className="row mt-2">
+          <div className="col-3">
+            <PriceRange />
+          </div>
+          <div className="col-3">
+            <PublicationDate />
+          </div>
+          <div className="col-3">
+            <Equipment />
+          </div>
+          <div className="col-3">
+            <MoreFilters />
+          </div>
+        </div>
+      </div>
     </>
   );
 };

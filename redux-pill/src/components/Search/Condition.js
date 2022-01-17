@@ -13,7 +13,7 @@ const Condition = () => {
           name="condition"
         />
         <label class="form-check-label" for="newhome">
-          New homes
+          New
         </label>
       </div>
       <div class="form-check form-check-inline">
@@ -25,7 +25,7 @@ const Condition = () => {
           name="condition"
         />
         <label class="form-check-label" for="goodCondition">
-          Good Condition
+          Good
         </label>
       </div>
       <div class="form-check form-check-inline">
